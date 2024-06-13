@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Additions</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #c5c5db;
+      }
+      h1 {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #3366cc;
+        color: #fff;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      li ul {
+        list-style-type: square;
+        margin-left: 20px;
+      }
+      li ul li {
+        margin-bottom: 5px;
+      }
+      .gif-container {
+        display: flex;
+        align-items: top;
+        height: 100%;
+      }
+      .gif {
+        
+      }
+      @media screen and (min-width:470px) {
+        .content-container{
+          flex-direction: column;
+        }
+      }
+      .content-container {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body dir="rtl">
+    <h1>Additions for Noam Churi and Ron Azar</h1>
+    <div class="content-container">
+      <ul>
+        <li>
+          <strong>YouTube Data API v3</strong>
+          <ul>
+            <li>ביצוע חיפוש של שיר לפי האופציה הראשונה לפי שם השיר ושם האמן</li>
+            <li>משיכת סרטונים והצגתם</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Spotify API</strong>
+          <ul>
+            <li>הצגת תמונות מספוטיפיי</li>
+            <li>קישור לדף אמן בספוטיפיי</li>
+          </ul>
+        </li>
+        <li>
+          <strong>הצגת האומנים בעזרת pagination לפי הא"ב</strong>
+        </li>
+        <li>
+          <strong>Quiz</strong>
+          <ul>
+            <li>
+              יצירת שאלות באופן רנדומלי ע"י משיכת מידע בעזרת API של Last.fm
+            </li>
+            <li>ניקוד במשחק עם שמירת נתונים בשרת</li>
+            <li>הצגת טבלת ניקוד מובילים ליצירת משחק תחרותי בין משתמשים</li>
+            <li>הצגת הניקוד הגבוה של המשתמש המחובר</li>
+            <li>ניקוד מבוסס על טיימר ותשובות נכונות</li>
+            <li>הצגת טיימר ויזואלי לטובת חווית המשתמש</li>
+          </ul>
+        </li>
+        <li>
+          <strong>TextToSpeech</strong>
+          <ul>
+            <li>הקראת הביו בText-To-Speech בעזרת Speech Api Js</li>
+            <li>אפשרות בחירת קול שונה</li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="gif-container">
+        <div class="gif">
+          <img src="./images/noam.gif" alt="First GIF" width="100%" />
+        </div>
+        <div class="gif">
+          <img src="./images/ron.gif" alt="Second GIF" width="100%" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

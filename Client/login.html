@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="assets/img/logo.gif" rel="icon" />
+    <title>MusicHub</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cardo"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="img js-fullheight" style="background-image: url(images/bg.jpg)">
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Welcome To MusicHub</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap p-0">
+              <h3 class="mb-4 text-center">Have an account?</h3>
+              <form action="#" class="signin-form" id="signin-form">
+                <div class="form-group">
+                  <input
+                    id="email"
+                    type="text"
+                    class="form-control"
+                    placeholder="Username/Email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    id="pass"
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="form-control btn btn-primary submit px-3"
+                  >
+                    Sign In
+                  </button>
+                </div>
+                <div class="form-group d-md-flex"></div>
+              </form>
+              <h3 class="second-section">Need to make an account?</h3>
+              <button
+                class="form-control btn btn-primary submit px-3"
+                onclick="window.location.href='./register.html'"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/generalFunctions.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/ajaxCalls.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
